@@ -1,18 +1,99 @@
+<html>
+<head>    
+</head>
+<body>
 <!DOCTYPE html>
 <html>
+
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-   $('#content').load("http://campar.in.tum.de/files/3DSSG/html/body.html");
-});
-</script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions (CVPR 2020)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://campar.in.tum.de/files/3DSSG/html/w3.css">
+  <link rel="stylesheet" href="./w3.css">
 </head>
+
 <body>
-<div id="content"></div>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s4">
+      <a href="#paper" class="w3-button w3-block w3-black">Paper</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#download" class="w3-button w3-block w3-black">Dataset</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#contact" class="w3-button w3-block w3-black">Contact</a>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<br>
+
+<h3 align="center" id="title">Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions (CVPR 2020)</h3>
+  <p align="center" class="center_text" id="authors">
+    <a target="_blank" href="http://campar.in.tum.de/Main/JohannaWald">Johanna Wald*</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a target="_blank" href="http://campar.in.tum.de/Main/HelisaDhamo">Helisa Dhamo*</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a target="_blank" href="http://campar.in.tum.de/Main/NassirNavab">Nassir Navab</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a target="_blank" href="http://campar.in.tum.de/Main/FedericoTombari">Federico Tombari</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  </ul>
+  </p>
+
+  <p class="center_text" align="center">
+    Technical University of Munich&nbsp;&nbsp;&nbsp;&nbsp;Google</br>
+    <span style="font-size:0.8em">* Authors contributed equally.</span>
+  </p>
+
+<div class="w3-container" id="paper">
+  <div class="w3-content" style="max-width:850px">
+    <br><center><img src="http://campar.in.tum.de/files/3DSSG/html/img.png" style="max-width:80%" /></center><br>
+  </div>
+</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<div class="w3-container" id="paper">
+  <div class="w3-content" style="max-width:850px">
+    <!--<h3><b>Abstract</b></h3>
+    <br><center><img src="3Rscan.png" style="max-width:100%" /></center><br>-->
+    <p style="font-size:0.8em">
+    In our work we focus on scene graphs, a data structure that organizes the entities of a scene in a graph, where objects are nodes and their relationships modeled as edges. We leverage inference on scene graphs as a way to carry out 3D scene understanding, mapping objects and their relationships. In particular, we propose a learned method that regresses a scene graph from the point cloud of a scene. Our novel architecture is based on PointNet and Graph Convolutional Networks (GCN). In addition, we introduce 3DSSG, a semi-automatically generated dataset, that contains semantically rich scene graphs of 3D scenes. We show the application of our method in a domain-agnostic retrieval task, where graphs serve as an intermediate representation for 3D-3D and 2D-3D matching.
+    </p>
+<br>
+    <iframe width="100%" height="480px" src="https://www.youtube.com/embed/8D3HjYf6cYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3 class="w3-left-align"><b>Paper</b></h3>
+    Conference on Computer Vision and Pattern Recognition (CVPR 2020)<br>
+    Paper | <a href="https://arxiv.org/pdf/2004.03967.pdf"> arXiv</a>
+    <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 14px">
+  @inproceedings{3DSSG2020,
+    title={Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions},
+    author={Wald, Johanna and Dhamo, Helisa and Navab, Nassir and Tombari, Federico},
+    booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+    year={2020}
+  }</pre>
+  </div>
+</div>
+
+<div class="w3-container" id="download">
+  <div class="w3-content" style="max-width:850px">
+    <h3 class="w3-left-align"><b>Dataset</b></h3>
+     Download: Our 3D Semantic Graphs dataset 3DSSG is available for download <a href="http://campar.in.tum.de/files/3DSSG/3DSSG.zip">here</a>. Please fill out <a href="https://forms.gle/NvL5dvB4tSFrHfQH6">this form</a> if you want access to the 3D reconstructions of 3RScan. A documentation of the data can be found <a href="http://campar.in.tum.de/files/3DSSG/README.md">here</a> 
+  </div>
+</div>
+
+<div class="w3-container" id="contact">
+  <div class="w3-content" style="margin-top:20px;max-width:850px">
+    <h3 class="w3-left-align"><b>Contact</b></h3>
+    For questions please contact <a href="mailto:johanna.wald@tum.de,helisa.dhamo@tum.de">johanna.wald@tum.de and helisa.dhamo@tum.de</a>. For more information regarding the original 3RScan dataset, please visit <a href="https://waldjohannau.github.io/RIO/">waldjohannau.github.io/RIO</a>.
+  </div>
+</div>
+
+<br><br>
+
+</body>
+</html>
 </body>
 </html>
