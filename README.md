@@ -35,15 +35,15 @@ The data in the provided *.zip files is organized as follows:
 |-- relationships.json
     List of all semantic relationships (edges) of our semantic graphs
 |-- affordances.txt
-    Provides affordances for each of the 534 classes
+    Provides affordances for each of the 528 classes
 |-- attributes.txt
     List of all 93 attributes together with their category
 |-- classes.txt
-    List of all 534 classes in 3RScan with corresponding lexcial description
+    List of all 528 classes in 3RScan with corresponding lexcial description
 |-- relationships.txt
     List of all 41 relationsihps
 |-- wordnet_attributes.txt
-    Extracted lexcial attributes of each of the 534 classes
+    Extracted lexcial attributes of each of the 528 classes
 ```
 
 ## Data Formats
@@ -152,5 +152,5 @@ Additional files used for validation and training our networks can be found in 3
 ```
 
 ### Notes:
-* Please see our [project page](3DSSG.github.io) for more information.
-* Our retrieval setup can be found [here](campar.in.tum.de/public_datasets/3DSSG/retrieval.zip)
+* Please see our [project page](https://3DSSG.github.io) for more information.
+* Our retrieval setup can be found [here](https://campar.in.tum.de/public_datasets/3DSSG/retrieval.zip)
